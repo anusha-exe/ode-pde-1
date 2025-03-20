@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # Numerical Solutions of Ordinary Differential Equations
 
 ## Overview
@@ -30,7 +34,7 @@ The numerical solutions compared against the exact solution:
 
 ### 2. Logistic Growth
 Logistic growth follows the equation:
-$$ y' = y(1 - \frac{y}{10}) $$
+\( y' = y(1 - \frac{y}{10}) \)
 
 ![Logistic Growth](results/figures/logistic_growth.png)
 

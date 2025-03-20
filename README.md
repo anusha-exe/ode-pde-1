@@ -66,25 +66,16 @@ $$ y'' - \mu(1 - y^2)y' + y = 0 $$
 ## Error Analysis
 The table below summarizes the errors in numerical methods:
 
-```latex
-\begin{table}[h]
-    \centering
-    \begin{tabular}{|l|c|c|c|} \hline
-    Method & L2 Error & Max Error & RMSE \\ \hline
-    Euler (Exponential Decay) & 0.000570 & 0.009489 & 0.005696 \\ \hline
-    RK4 (Exponential Decay) & 0.000000 & 0.000000 & 0.000000 \\ \hline
-    Euler (Logistic Growth) & 0.003789 & 0.064599 & 0.037889 \\ \hline
-    RK4 (Logistic Growth) & 0.000000 & 0.000000 & 0.000000 \\ \hline
-    Euler (SHM) & 0.008573 & 0.269985 & 0.121248 \\ \hline
-    RK4 (SHM) & 0.000000 & 0.000000 & 0.000000 \\ \hline
-    Euler (Lorenz) & 0.087143 & 6.420071 & 2.755716 \\ \hline
-    Euler (Van der Pol) & 0.020209 & 0.812551 & 0.285801 \\ \hline
-    \end{tabular}
-    \caption{Numerical Errors for Different Methods}
-    \label{tab:errors}
-\end{table}
-
-```
+| Method                     | L2 Error  | Max Error  | RMSE      |
+|----------------------------|-----------|------------|-----------|
+| Euler (Exponential Decay)  | 0.000570  | 0.009489   | 0.005696  |
+| RK4 (Exponential Decay)    | 0.000000  | 0.000000   | 0.000000  |
+| Euler (Logistic Growth)    | 0.003789  | 0.064599   | 0.037889  |
+| RK4 (Logistic Growth)      | 0.000000  | 0.000000   | 0.000000  |
+| Euler (SHM)               | 0.008573  | 0.269985   | 0.121248  |
+| RK4 (SHM)                 | 0.000000  | 0.000000   | 0.000000  |
+| Euler (Lorenz)            | 0.087143  | 6.420071   | 2.755716  |
+| Euler (Van der Pol)       | 0.020209  | 0.812551   | 0.285801  |
 
 ## Project Report
 [View](report/main.pdf)

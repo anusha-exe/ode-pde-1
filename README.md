@@ -1,6 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 # Numerical Solutions of Ordinary Differential Equations
 
@@ -27,37 +24,43 @@ pip install numpy matplotlib
 
 ### 1. Exponential Decay
 Exponential decay follows the equation:
+```latex
 $$ y' = -y $$
+```
 The numerical solutions compared against the exact solution:
 
 ![Exponential Decay](results/figures/exponential_decay.png)
 
 ### 2. Logistic Growth
 Logistic growth follows the equation:
+```latex
 \( y' = y(1 - \frac{y}{10}) \)
-
+```
 ![Logistic Growth](results/figures/logistic_growth.png)
 
 ### 3. Simple Harmonic Motion (SHM)
 Equation:
+```latex
 $$ y'' + y = 0 $$
-
+```
 ![SHM](results/figures/shm.png)
 
 ### 4. Lorenz System
 A chaotic system described by:
+```latex
 \[ \begin{aligned} 
     x' &= \sigma(y - x) \\
     y' &= x(\rho - z) - y \\
     z' &= xy - \beta z 
 \end{aligned} \]
-
+```
 ![Lorenz System](results/figures/lorenz.png)
 
 ### 5. Van der Pol Oscillator
 A nonlinear oscillator described by:
+```latex
 $$ y'' - \mu(1 - y^2)y' + y = 0 $$
-
+```
 ![Van der Pol Oscillator](results/figures/vdp.png)
 
 ## Error Analysis

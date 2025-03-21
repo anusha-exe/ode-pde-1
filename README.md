@@ -1,6 +1,9 @@
 
 # Numerical Solutions of Ordinary Differential Equations
 
+## Project Report
+[View](report/main.pdf)
+
 ## Overview
 This project implements numerical methods for solving ordinary differential equations (ODEs), specifically using the **Euler method** and **RK4 method**. Various ODEs are analyzed, including:
 
@@ -48,11 +51,13 @@ $$ y'' + y = 0 $$
 ### 4. Lorenz System
 A chaotic system described by:
 
-    $$ x' &= \sigma(y - x) $$
-    
-    $$ y' &= x(\rho - z) - y $$
-    
-    $$ z' &= xy - \beta z $$
+$$
+\begin{aligned}
+    x' &= \sigma(y - x) \\
+    y' &= x(\rho - z) - y \\
+    z' &= xy - \beta z
+\end{aligned}
+$$
 
 ![Lorenz System](results/figures/lorenz.png)
 
@@ -77,8 +82,7 @@ The table below summarizes the errors in numerical methods:
 | Euler (Lorenz)            | 0.087143  | 6.420071   | 2.755716  |
 | Euler (Van der Pol)       | 0.020209  | 0.812551   | 0.285801  |
 
-## Project Report
-[View](report/main.pdf)
+
 
 ## To be done:
 - Adding PDE solvers

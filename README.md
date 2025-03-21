@@ -49,7 +49,9 @@ $$ y'' + y = 0 $$
 A chaotic system described by:
 
     $$ x' &= \sigma(y - x) $$
+    
     $$ y' &= x(\rho - z) - y $$
+    
     $$ z' &= xy - \beta z $$
 
 ![Lorenz System](results/figures/lorenz.png)

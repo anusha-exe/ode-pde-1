@@ -115,7 +115,7 @@ The observed errors for each method are summarized in Table \ref{tab:errors}.
 
 \clearpage
 \section{Results and Visualizations}
-We provide graphical comparisons for each test case to illustrate the accuracy of the numerical methods.
+We provide graphical comparisons for each test case to illustrate the accuracy of the numerical methods- Euler and RK4. The exact solutions for the first three equations have also been plotted. It is clear that RK4 is much more accurate, and in the case of SHM, the accuracy of the methods compared to the exact solution is very apparent.
 \begin{center}
     \begin{figure}[htbp]
         \centering
@@ -127,28 +127,28 @@ We provide graphical comparisons for each test case to illustrate the accuracy o
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.7\textwidth]{results/figures/logistic_growth.png}
-        \caption{Numerical vs Exact Solution for Logistic Growth.}
+        \caption{Numerical vs Exact Solutions for Logistic Growth.}
         \label{fig:logistic_growth}
     \end{figure}
     
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.7\textwidth]{results/figures/shm.png}
-        \caption{Numerical vs Exact Solution for Simple Harmonic Motion.}
+        \caption{Numerical vs Exact Solutions for Simple Harmonic Motion.}
         \label{fig:shm}
     \end{figure}
     
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.7\textwidth]{results/figures/lorenz.png}
-        \caption{Numerical vs Exact Solution for the Lorenz System.}
+        \caption{Euler vs RK4 Solutions for the Lorenz System.}
         \label{fig:lorenz}
     \end{figure}
     
     \begin{figure}[htbp]
         \centering
         \includegraphics[width=0.7\textwidth]{results/figures/vdp.png}
-        \caption{Comparison of Numerical Solutions for the Van der Pol Oscillator.}
+        \caption{Euler vs RK4 Solutions for the Van der Pol Oscillator.}
         \label{fig:vanderpol}
     \end{figure}
     \end{center}
